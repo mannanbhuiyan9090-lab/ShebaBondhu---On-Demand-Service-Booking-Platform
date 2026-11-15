@@ -1,6 +1,3 @@
-// HandyGo Pro Admin Dashboard JS
-// Professional interactions: notifications, AJAX, stats animation, dark mode
-
 document.addEventListener('DOMContentLoaded', function() {
   // Notification system
   const notifBtn = document.getElementById('notifBtn');
