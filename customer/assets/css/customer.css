@@ -1,0 +1,29 @@
+/* Customer Dashboard - Soft Blue Theme */
+:root {
+  --primary: 199 80% 55%;     /* Soft blue */
+  --accent:  162 70% 50%;     /* Teal */
+  --bg-main: 200 100% 98%;    /* Light blue bg */
+  --card-bg: 0 0% 100%;       /* White cards */
+  --sidebar-bg: linear-gradient(135deg, hsl(199 100% 97%), hsl(200 100% 95%));
+  --text-primary: 220 20% 15%; /* Black text */
+  --text-secondary: 220 20% 35%;
+}
+
+body.customer-dashboard { 
+  background: hsl(var(--bg-main)); 
+  color: hsl(var(--text-primary)); 
+}
+.dash-card { 
+  background: hsl(var(--card-bg)); 
+  border-color: hsl(199 80% 85%); 
+  color: hsl(var(--text-primary));
+}
+.dash-card-title { color: hsl(var(--text-primary)); }
+.dash-sidebar { background: var(--sidebar-bg); color: hsl(var(--text-primary)); }
+.dash-user-name { color: hsl(var(--text-primary)); }
+.dash-user-role { color: hsl(var(--text-secondary)); }
+.dash-user-av { background: hsl(var(--primary)/0.85); }
+.btn-primary { background: hsl(var(--primary)); color: white; }
+.kpi-val, .kpi-lbl { color: hsl(var(--text-primary)); }
+.kpi { border-color: hsl(var(--accent)/0.3); color: hsl(var(--text-primary)); }
+
